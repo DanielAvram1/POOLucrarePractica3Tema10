@@ -145,8 +145,8 @@ istream& operator >> (istream& in, casa& ob){
     cout << "nretaje: ";
     in >> ob.nr_etaje;
     delete[] ob.suprafata_etaj;
-    if(ob.nr_etaje < 0) ob.nr_etaje = 1;
-    ob.suprafata_etaj = new double[ob.nr_etaje];
+    if(ob.nr_etaje < 0) ob.nr_etaje = 0;
+    ob.suprafata_etaj = new double[ob.nr_etaje+1];
     ob[0] = ob.suprafata;
     for(int i = 1; i <= ob.nr_etaje; i++){
         cout<< "suprafata etajului "<<i<<": ";
