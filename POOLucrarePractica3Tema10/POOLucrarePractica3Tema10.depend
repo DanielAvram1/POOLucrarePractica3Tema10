@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1590008140 source:d:\programare\univer\poolucrarepractica3tema10\main.cpp
+	<iostream>
+	"apartament.h"
+	"casa.h"
+	"gestiune.h"
+	<set>
+	<utility>
+	<string>
+
+1590008159 d:\programare\univer\poolucrarepractica3tema10\include\locuinta.h
+	<string>
+	<iostream>
+
+1589049503 d:\programare\univer\poolucrarepractica3tema10\include\apartament.h
+	"locuinta.h"
+
+1590007324 source:d:\programare\univer\poolucrarepractica3tema10\src\locuinta.cpp
+	"locuinta.h"
+
+1590007215 source:d:\programare\univer\poolucrarepractica3tema10\src\apartament.cpp
+	"apartament.h"
+	"locuinta.h"
+	"exceptionNrEtaj.h"
+	<iostream>
+
+1590007645 source:d:\programare\univer\poolucrarepractica3tema10\src\casa.cpp
+	"casa.h"
+	"locuinta.h"
+	<iostream>
+	"exceptionNrEtaj.h"
+
+1589049595 d:\programare\univer\poolucrarepractica3tema10\include\casa.h
+	"locuinta.h"
+
+1588956539 source:d:\programare\univer\poolucrarepractica3tema10\src\gestiune.cpp
+	"gestiune.h"
+
+1589024853 d:\programare\univer\poolucrarepractica3tema10\include\gestiune.h
+	"casa.h"
+	"apartament.h"
+	<vector>
+
+1589046920 source:d:\programare\univer\poolucrarepractica3tema10\src\exceptionnretaj.cpp
+	"exceptionNrEtaj.h"
+
+1589046682 d:\programare\univer\poolucrarepractica3tema10\include\exceptionnretaj.h
+	<exception>
+
